@@ -1,0 +1,27 @@
+{
+  "name": "enterprisejs_webface",
+  "description": "Web-facing piece of enterprise.js; This will initially use only labyrinth for routing, but I'll try to keep it friendly for future interfacing. ",
+  "version": "0.0.1",
+  "maintainers": [
+    {
+      "name": "Charles Martin",
+      "email": "cjay.martin@gmail.com",
+      "web": ""
+    }
+  ],
+  "dependencies": {
+    "seaport": "latest",
+    "appserver": "git://github.com/enterprisejs/appserver.git",
+    "datastore": "git://github.com/enterprisejs/datastore.git",
+    "labyrinth": "git://github.com/enterprisejs/labyrinth.git"
+  },
+  "devDependencies": {
+    "tap": "*"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git://github.com/enterprisejs/enterprisejs_webface.git"
+    }
+  ]
+}
